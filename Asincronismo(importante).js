@@ -1,6 +1,9 @@
 // Qué es el asincronismo en js?
 // es la acción que no ocurre al mismo tiempo
 
+// Even Loop
+// Encargado de preguntar si la pila de ejecucion esta vacia para resolver otra tarea para pasarla a ejecución
+
 // API
 // Interfaz de programación de aplicaciones (Application Programming Interface). Es un conjunto de
 // rutinas que provee acceso a funciones de un determinado software.
@@ -25,8 +28,9 @@
 // como por ejemplo un callback, una promesa o un evento, lo que hace posible que la respuesta
 // sea procesada en diferido.
 
-// Call Stack
-// La pila de llamadas, se encarga de albergar las instrucciones que deben ejecutarse. Nos indica en
+// Call Stack (pila de ejecucion)
+// lugar donde las funciones son puestas en ejecución
+// La pila de llamadas se encarga de albergar las instrucciones que deben ejecutarse. Nos indica en
 // que punto del programa estamos, por donde vamos.
 
 // Memory Heap

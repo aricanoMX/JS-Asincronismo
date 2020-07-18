@@ -1,0 +1,27 @@
+{
+  "name": "asincronismo_js",
+  "version": "1.0.0",
+  "description": "Trabajaremos con asincronimo con JS",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise": "node src/promises/index.js",
+    "promise:challenge": "node src/promises/challenge.js",
+    "async": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aricanoMX/PM_Asincronismo.git"
+  },
+  "author": "Andrés Ricaño <aricanomx@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aricanoMX/PM_Asincronismo/issues"
+  },
+  "homepage": "https://github.com/aricanoMX/PM_Asincronismo#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
